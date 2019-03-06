@@ -90,3 +90,52 @@ printer.mode;
 
 
 
+## Question :
+
+### Q1:
+
+![](/assets/L1Q1.png)
+
+### Q2:
+
+Consider the following`house`object:
+
+```js
+let house = {
+  color: 'green',
+  numRooms: 4,
+  numWindows: 8,
+  forSale: false
+};
+```
+
+Write an expression to delete the`numWindows`property from`house`.
+
+* Ans: delete house.numWindows;
+* Notes : The`delete`operator removes a property from an object, and returns a boolean indicating successful deletion. CONTINUE
+
+###  Q3:
+
+Consider the updated house object from above:
+
+```js
+let house = {
+  color: 'green',
+  numRooms: 4,
+  forSale: false
+};
+```
+
+Write an expression to add a new hasGarage property to house. Set the value of the hasGarage property to true.
+
+* Ans: house.hasGarage = true;
+* Notes:
+
+```js
+//Here are two possible solutions:
+house.hasGarage = true;
+house['hasGarage']= true;
+```
+
+
+
