@@ -8,4 +8,5 @@
     * [L2\_2-Callback](Lesson2_functions-at-runtime/l22-callback.md)
     * [L2\_3-Scope](Lesson2_functions-at-runtime/l23-scope.md)
     * [L2\_4-Closures](Lesson2_functions-at-runtime/l24-closures.md)
+    * [L2\_5-Immediately-Invoked Function Expressions \(IIFE\)](Lesson2_functions-at-runtime/l25-immediately-invoked-function-expressions-iife.md)
 
