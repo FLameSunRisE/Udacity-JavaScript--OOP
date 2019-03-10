@@ -42,7 +42,7 @@ mockingbird.describe.call(pride);
 
 Just like call\(\), the apply\(\) method is called on a function to not only invoke that function, but also to associate with it a specific value of this. 
 
-```
+```js
 function multiply(n1, n2) {
   return n1 * n2;
 }
@@ -54,7 +54,7 @@ multiply.apply(window, [3, 4]);
 
 ```
 
-
+apply() vs call()
 
 ```js
 const mockingbird = {
