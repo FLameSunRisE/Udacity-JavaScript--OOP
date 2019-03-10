@@ -51,8 +51,10 @@ multiply.apply(window, [3, 4]);
 
 apply\(\) vs call\(\)
 
-* call\(\) may be limited if you don't know ahead of time the number of arguments that the function needs
-* apply\(\) would be a better option, since it simply takes an array of arguments, then unpacks them to pass along to the function. Keep in mind that the unpacking comes at a minor performance cost, but it shouldn't be much of an issue.
+* call\(\):
+   may be limited if you don't know ahead of time the number of arguments that the function needs
+* apply\(\) :
+   would be a better option, since it simply takes an array of arguments, then unpacks them to pass along to the function. Keep in mind that the unpacking comes at a minor performance cost, but it shouldn't be much of an issue.
 
 ```js
 const mockingbird = {
