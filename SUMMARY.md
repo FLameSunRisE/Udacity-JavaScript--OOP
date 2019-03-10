@@ -11,3 +11,4 @@
     * [L2\_5-Immediately-Invoked Function Expressions \(IIFE\)](Lesson2_functions-at-runtime/L25_immediately-invoked-function-expressions-iife.md)
   * [Lesson3 Classes and Objects](Lesson3_Classes-and-Objects.md)
     * [L3\_1-Constructor Functions](Lesson3 Classes and Objects/L31_Constructor-Functions.md)
+    * [L3\_2-The this keyword](Lesson3 Classes and Objects/L32_The-this-Keyword.md)
