@@ -10,4 +10,3 @@
     * [L2\_4-Closures](Lesson2_functions-at-runtime/L24_closures.md)
     * [L2\_5-Immediately-Invoked Function Expressions \(IIFE\)](Lesson2_functions-at-runtime/L25_immediately-invoked-function-expressions-iife.md)
   * [Lesson3 Classes and Objects](/Lesson3_Classes-and-Objects.md)
-    * 
