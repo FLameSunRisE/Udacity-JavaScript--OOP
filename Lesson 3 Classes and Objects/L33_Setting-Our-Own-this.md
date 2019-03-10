@@ -115,8 +115,11 @@ const Richard = {
     console.log(`Hello there! I'm ${this.name}.`);
   }
 };
-
 ```
 
 When`Richard.introduce.call(Andrew);`is executed, what is logged to the console?
+
+* Ans : 'Hello ther! I'm Andrew'
+
+
 
