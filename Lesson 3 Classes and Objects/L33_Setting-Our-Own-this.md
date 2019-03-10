@@ -190,8 +190,6 @@ dog.age;
 
 ![](/assets/L3_3Q4.png)
 
-
-
 Consider the following:
 
 ```js
@@ -213,8 +211,9 @@ dog.age;
 // 7
 ```
 
-Write an expression using`bind()`that allows us to "borrow" the`displayName()`method from`driver`for the`car`object to use. Note: The_expression itself_is sufficient \(no need to save it to a variable\).
+Write an expression using`bind()`that allows us to "borrow" the`displayName()`method from`driver`for the`car`object to use. Note: The\_expression itself\_is sufficient \(no need to save it to a variable\).
 
-  
+* Ans : driver.displayName.bind\(car\);
+
 
 
