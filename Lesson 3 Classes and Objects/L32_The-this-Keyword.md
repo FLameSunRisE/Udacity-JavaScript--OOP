@@ -79,6 +79,27 @@ What is the value of`this`?
 | this | {} | object itself | global object |
 | Example | new Cat\(\) | bailey.sayName\(\) | introduce\(\) |
 
-  
+### Question3:
+
+Consider the following object,`building`:
+
+```js
+const building = {
+  floors: 5,
+  addFloor: function () {
+    this.floors += 1;
+  }
+};
+
+building.addFloor();
+// ???
+```
+
+What is the value of`this`when`building.addFloor();`is executed?
+
+* Ans: building
+* Solution : 
+  Recall that a method can directly access the object on which it was called. In this case, it modifies `building `'s `floors `property by incrementing its value by 1.
+
 
 
