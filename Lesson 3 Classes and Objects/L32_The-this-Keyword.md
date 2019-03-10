@@ -59,7 +59,6 @@ function City(name, population) {
     console.log(`${this.name}'s population is ${this.population}.`);
   };
 }
-
 ```
 
 The following is executed:
@@ -69,4 +68,9 @@ const sanFrancisco = new City('San Francisco', 870000);
 ```
 
 What is the value of`this`?
+
+* Ans : The newly-created object, referenced by sanFrancisco
+* Solution : Depending on how a function is invoked, the value of this is set to a different value.
+
+
 
