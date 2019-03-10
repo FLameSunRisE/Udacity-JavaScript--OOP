@@ -75,5 +75,21 @@ mockingbird.describe.apply(pride);
 // 'Pride and Prejudice is a classic novel'
 ```
 
+### QUESTION 1 OF 5
 
+Consider the following`dave`object, and the`sayHello()`function:
+
+```js
+const dave = {
+  name: 'Dave'
+};
+
+function sayHello(message) {
+  console.log(`${message}, ${this.name}. You're looking well today.`);
+}
+```
+
+Let's say you want the message`'Hello, Dave. You're looking well today.'`printed to the console.
+
+Which of the following expressions could you write to accomplish that?
 
