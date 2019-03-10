@@ -121,8 +121,6 @@ When`Richard.introduce.call(Andrew);`is executed, what is logged to the console?
 
 * Ans : 'Hello ther! I'm Andrew'
 
-
-
 Consider the following:
 
 ```js
@@ -138,6 +136,56 @@ function introduce(language) {
 Write an expression that uses the`call()`method to produce the message:`'I'm Andrew and my favorite programming language is JavaScript.'`
 
 Ans : introduce.call\(andrew, 'JavaScript'\);
+
+## Callbacks and`this` {#callbacks-and-this}
+
+```js
+function invokeTwice(cb) {
+   cb();
+   cb();
+}
+
+const dog = {
+  age: 5,
+  growOneYear: function () {
+    this.age += 1;
+  }
+};
+
+dog.growOneYear();
+// (this works as expected)
+
+dog.age;
+// 6
+
+invokeTwice(dog.growOneYear);
+// undefined
+
+dog.age;
+// 6
+```
+
+## Saving`this`with bind\(\) {#saving-this-with-bind-}
+
+```js
+function invokeTwice(cb) {
+   cb();
+   cb();
+}
+
+const dog = {
+  age: 5,
+  growOneYear: function () {
+    this.age += 1;
+  }
+};
+
+const myGrow = dog.growOneYear.bind(dog);
+
+dog.age;
+// 7
+
+```
 
 
 
