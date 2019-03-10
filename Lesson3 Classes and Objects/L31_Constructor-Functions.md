@@ -49,11 +49,8 @@ function Sandwich(bread,meat,vegetables){
     this.vegetables = vegetables;
 }
 
- let Sand = new Sandwich("wheat",['Chorizo','Prosciutto','Pancetta'],['Garlic','Cucumber','Mushrooms']);   
-
+ let Sand = new Sandwich("wheat",['Chorizo','Prosciutto','Pancetta'],['Garlic','Cucumber','Mushrooms']);
 ```
-
-
 
 ## Seeing the Object's Constructor \(`instanceof`\) {#seeing-the-object-s-constructor-instanceof-}
 
@@ -99,9 +96,6 @@ What is the result when`atticus instanceof Sparrow;`is executed?
 * Ans: False
 * Solution:
   false is returned. Not only is Sparrow not the atticus object's constructor function -- the Sparrow object is nowhere to be found in atticus's prototype chain.
-
-
-
 
 
 
