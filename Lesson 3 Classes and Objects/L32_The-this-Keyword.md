@@ -44,5 +44,29 @@ dog.barkTwice();
 // Woof!
 ```
 
+### Question:![](/assets/L3_2Q1.png)
 
+### Question2:
+
+Consider the following constructor function,`City`:
+
+```js
+function City(name, population) {
+  this.name = name;
+  this.population = population;
+
+  this.identify = function () {
+    console.log(`${this.name}'s population is ${this.population}.`);
+  };
+}
+
+```
+
+The following is executed:
+
+```js
+const sanFrancisco = new City('San Francisco', 870000);
+```
+
+What is the value of`this`?
 
