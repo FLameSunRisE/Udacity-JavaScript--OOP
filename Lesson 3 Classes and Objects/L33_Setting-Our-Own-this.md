@@ -123,3 +123,21 @@ When`Richard.introduce.call(Andrew);`is executed, what is logged to the console?
 
 
 
+Consider the following:
+
+```js
+const andrew = {
+  name: 'Andrew'
+};
+
+function introduce(language) {
+  console.log(`I'm ${this.name} and my favorite programming language is ${language}.`);
+}
+```
+
+Write an expression that uses the`call()`method to produce the message:`'I'm Andrew and my favorite programming language is JavaScript.'`
+
+Ans : introduce.call\(andrew, 'JavaScript'\);
+
+
+
