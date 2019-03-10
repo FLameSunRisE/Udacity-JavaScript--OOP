@@ -13,3 +13,4 @@
     * [L3\_1-Constructor-Functions](Lesson 3 Classes and Objects/L31_Constructor-Functions.md)
     * [L3\_2-The-this-keyword](Lesson 3 Classes and Objects/L32_The-this-Keyword.md)
     * [L3\_3-Setting-Our-Own-this](Lesson 3 Classes and Objects/L33_Setting-Our-Own-this.md)
+    * [L3\_4-Prototypal-Inheritance](Lesson 3 Classes and Objects/L34_Prototypal-Inheritance.md)
