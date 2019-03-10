@@ -167,6 +167,8 @@ dog.age;
 
 ## Saving`this`with bind\(\) {#saving-this-with-bind-}
 
+* bind\(\) returns a new function that, when called, has this set to the value we give it.
+
 ```js
 function invokeTwice(cb) {
    cb();
@@ -184,7 +186,6 @@ const myGrow = dog.growOneYear.bind(dog);
 
 dog.age;
 // 7
-
 ```
 
 
