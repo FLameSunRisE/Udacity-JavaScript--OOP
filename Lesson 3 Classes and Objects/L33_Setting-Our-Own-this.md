@@ -93,3 +93,30 @@ Let's say you want the message`'Hello, Dave. You're looking well today.'`printed
 
 Which of the following expressions could you write to accomplish that?
 
+* Ans:sayHello.apply\(dave, \['Hello'\]\);
+
+### QUESTION 2 OF 5
+
+Consider the following`Andrew`and`Richard`objects:
+
+```js
+const Andrew = {
+  name: 'Andrew',
+  introduce: function () {
+    console.log(`Hi, my name is ${this.name}!`);
+  }
+};
+```
+
+```js
+const Richard = {
+  name: 'Richard',
+  introduce: function () {
+    console.log(`Hello there! I'm ${this.name}.`);
+  }
+};
+
+```
+
+When`Richard.introduce.call(Andrew);`is executed, what is logged to the console?
+
