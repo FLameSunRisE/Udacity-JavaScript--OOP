@@ -72,5 +72,13 @@ What is the value of`this`?
 * Ans : The newly-created object, referenced by sanFrancisco
 * Solution : Depending on how a function is invoked, the value of this is set to a different value.
 
+## What Does`this`Get Set To? {#what-does-this-get-set-to-}
+
+| Call Style | 'new' | method | function |
+| :--- | :--- | :--- | :--- |
+| this | {} | object itself | global object |
+| Example | new Cat\(\) | bailey.sayName\(\) | introduce\(\) |
+
+  
 
 
